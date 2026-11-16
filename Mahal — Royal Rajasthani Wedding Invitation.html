@@ -1,0 +1,113 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Mahal — Royal Rajasthani Wedding Invitation</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Playfair+Display:ital,wght@1,500&family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Manrope:wght@400;600&family=Noto+Serif+Devanagari:wght@500&display=swap" rel="stylesheet">
+<style>:root{--s1:#F6E7CF;--s2:#3b0d18;--s3:#5a1426;--s4:#2a0a12;--s5:#6e1d2c;--t1:#F6E7CF;--t2:#5a1426;--ac:#F2A33A;--ac2:#b4721c;--f1:'Playfair Display',serif;--f2:'Cormorant Garamond',serif;--f3:Cinzel,serif}
+*{margin:0;box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{background:var(--s2);color:var(--t1);font:400 1.15rem/1.6 var(--f2);overflow-x:hidden}
+body.lock{overflow:hidden;height:100%}body.lock main>section:not(#inv){display:none}
+#ov{position:fixed;inset:0;z-index:2;overflow:hidden}
+#sk{position:absolute;z-index:9;top:calc(env(safe-area-inset-top,0px) + 16px);right:16px;background:none;border:1px solid var(--ac);color:var(--t1);font:600 .65rem var(--f3);letter-spacing:.25em;padding:.6rem 1rem;text-transform:uppercase}
+section{padding:14vh 6vw;position:relative;text-align:center}
+h2{font:italic 500 clamp(2rem,6vw,3.6rem)/1.1 var(--f1);color:var(--ac);margin-bottom:.5rem}
+.lb{font:600 .7rem var(--f3);letter-spacing:.35em;text-transform:uppercase;opacity:.75}
+.dv{color:var(--ac);display:flex;align-items:center;gap:1rem;justify-content:center;margin:.8rem 0;font-size:.8rem}.dv:before,.dv:after{content:"";width:min(18vw,120px);height:1px;background:linear-gradient(90deg,transparent,currentColor)}.dv:after{transform:scaleX(-1)}
+#inv{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--s1);color:var(--t2);padding:12vh 8vw}
+#inv:before{content:"";position:absolute;inset:3vmin;border:1px solid var(--ac2);outline:1px solid var(--ac2);outline-offset:-8px;pointer-events:none}
+body.lock #inv{position:fixed;inset:0;z-index:5;overflow:auto;clip-path:circle(0% at 50% 50%)}
+#inv h1{font:italic 500 clamp(2.6rem,10vw,6rem)/1.05 var(--f1);margin:.6rem 0}#inv h1 small{display:block;font:400 1.3rem var(--f3);opacity:.7}
+#inv p{max-width:34rem;text-wrap:balance}.big{font:600 clamp(.9rem,2.6vw,1.15rem) var(--f3);letter-spacing:.25em;margin-top:1rem;opacity:.85}
+.gn{font:500 1.3rem 'Noto Serif Devanagari';margin:.6rem 0;color:var(--ac2)}
+.spin{animation:sp 60s linear infinite}@keyframes sp{to{rotate:360deg}}
+#prog{background:var(--s2)}#cd{background:var(--s3)}#ven{background:var(--s4)}#rsvp{background:var(--s5)}
+.tl{max-width:900px;margin:6vh auto 0;position:relative}.tl:before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:linear-gradient(var(--ac),transparent)}
+.ev{position:relative;width:50%;padding:0 3rem 5rem 0;text-align:right}.ev:nth-child(even){margin-left:50%;padding:0 0 5rem 3rem;text-align:left}
+.ev:after{content:"◆";position:absolute;right:-.55rem;top:.2rem;color:var(--ac)}.ev:nth-child(even):after{left:-.55rem;right:auto}
+.ev h3{font:italic 500 clamp(1.8rem,5vw,2.8rem)/1.1 var(--f1)}.ev .t{font-style:italic;opacity:.8}
+@media(max-width:680px){.tl:before{left:.5rem}.ev,.ev:nth-child(even){width:100%;margin:0;padding:0 0 3.5rem 2.2rem;text-align:left}.ev:after,.ev:nth-child(even):after{left:0;right:auto}}
+.cd{display:flex;gap:clamp(.8rem,4vw,3rem);justify-content:center;margin-top:3rem}.cd b{display:block;font:italic 500 clamp(2.6rem,11vw,6rem)/1 var(--f1);color:var(--ac);font-variant-numeric:tabular-nums}.cd span{font:600 .65rem var(--f3);letter-spacing:.3em}
+.btn{display:inline-block;margin:.5rem;padding:1rem 1.6rem;border:1px solid var(--ac);color:var(--t1);font:600 .75rem var(--f3);letter-spacing:.28em;text-decoration:none;background:none;transition:background .3s,color .3s}
+.btn:hover,.btn:focus-visible,.btn.p{background:var(--ac);color:#1a1209;outline:none}
+.rv{opacity:0;transform:translateY(36px);transition:1.2s cubic-bezier(.2,.7,.2,1)}.rv.in{opacity:1;transform:none}
+.sp i{font-style:normal;display:inline-block;opacity:0;transform:translateY(40px) rotateX(-70deg)}
+.cue{position:fixed;bottom:calc(env(safe-area-inset-bottom,0px) + 18px);left:50%;translate:-50% 0;font:600 .6rem var(--f3);letter-spacing:.3em;color:var(--t2);opacity:0;transition:opacity .8s;pointer-events:none;z-index:4}.cue.on{opacity:.8}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+
+#c{position:absolute;inset:0;width:100%;height:100%}#fl{position:absolute;inset:0;background:radial-gradient(circle,#fff3d0,#f2a33a 60%,transparent);opacity:0}
+#t1{position:absolute;left:0;right:0;bottom:16%;text-align:center;opacity:0;transform:translateY(20px);font:600 clamp(.8rem,2.6vw,1.3rem) Cinzel;letter-spacing:.55em;color:#F2A33A}
+#nm{position:absolute;inset:0;display:grid;place-content:center;text-align:center;pointer-events:none;padding:0 4vw}
+.n{font:italic 500 clamp(3.2rem,15vw,9rem)/1 'Playfair Display';color:#F6E7CF;text-shadow:0 0 40px #f2a33acc}.and{color:#F2A33A;font:1.6rem Cinzel;letter-spacing:.4em;opacity:0;margin:.4rem 0}.s{opacity:0;font:italic 1.3rem 'Cormorant Garamond';color:#F6E7CF;margin-top:1rem}
+#ov:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse,transparent 50%,#1a0509cc);pointer-events:none}</style></head><body>
+<div id="ov"><canvas id="c"></canvas><div id="fl"></div><div id="t1">A ROYAL INVITATION</div><div id="nm"><div class="n sp" data-t="a"></div><div class="and">&</div><div class="n sp" data-t="b"></div><div class="s">invite you to the grand wedding celebration · 22 February 2027</div></div><button id="sk" onclick="fin()">Skip</button></div>
+<main>
+<section id="inv"><svg class="spin" id="m1" viewBox="-60 -60 120 120" width="110" fill="none" stroke="currentColor" stroke-width=".8" style="color:var(--ac2)"></svg>
+<div class="gn">॥ श्री गणेशाय नमः ॥</div><p>With the blessings of our elders and the joy of our families, we invite you to bless the wedding of our beloved children</p>
+<h1><span data-t="a"></span><small>&</small><span data-t="b"></span></h1><p>Daughter of Mr. & Mrs. Mishra · Son of Mr. & Mrs. Tiwari</p>
+<div class="big">MONDAY · 22 FEBRUARY 2027</div><div class="big">SHUBH VIVAH · 07:00 PM ONWARDS</div><div class="dv" style="color:var(--ac2)">◆</div><div class="lb" data-t="venue"></div><div data-t="city"></div></section>
+<section id="prog"><div class="lb">The celebrations</div><h2>A Wedding in Four Chapters</h2><div class="tl" id="tl"></div></section>
+<section id="cd"><div class="lb">Counting every moment</div><h2>Until We Say “I Do”</h2><div class="cd"><div><b></b><span>DAYS</span></div><div><b></b><span>HOURS</span></div><div><b></b><span>MINUTES</span></div><div><b></b><span>SECONDS</span></div></div></section>
+<section id="ven"><div class="lb">The venue</div><h2 data-t="venue"></h2><div class="dv">◆</div><p data-t="city" style="font-size:1.5rem"></p><p data-t="addr" style="opacity:.8;margin-bottom:2rem"></p><a class="btn p map" target="_blank" rel="noopener">GET DIRECTIONS</a></section>
+<section id="rsvp"><svg class="spin" id="m2" viewBox="-60 -60 120 120" width="90" fill="none" stroke="currentColor" stroke-width=".8" style="color:var(--ac)"></svg><h2>Join Us in Celebration</h2><p style="max-width:30rem;margin:0 auto 2rem">Your presence is the greatest blessing. Please let our family know you are coming.</p>
+<a class="btn" id="call">CALL FAMILY</a><a class="btn p" id="wa" target="_blank" rel="noopener">WHATSAPP RSVP</a><a class="btn map" target="_blank" rel="noopener">GET DIRECTIONS</a>
+<p style="margin-top:5rem;font-style:italic;font-size:1.4rem" class="rv">With love and blessings,<br>the families of <span data-t="a"></span> & <span data-t="b"></span></p><button class="btn" onclick="location.reload()">REPLAY THE OPENING</button></section>
+</main><div class="cue">SCROLL</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script>// ---- EDIT ME: all wedding details live here ----
+const C={a:'MEERA',b:'VIHAAN',date:new Date('2027-02-22T19:00:00+05:30'),venue:'The Grand Heritage Garden',city:'Lucknow, India',addr:'Demo address: Gomti Nagar, Lucknow, Uttar Pradesh 226010',map:'The Grand Heritage Garden, Lucknow, India',call:'+919999999999',wa:'919999999999',msg:'Namaste! We are delighted to join Meera & Vihaan’s wedding celebrations on 22 February 2027. 🙏',
+events:[['HALDI','21 FEBRUARY 2027','11:00 AM onwards'],['MEHENDI','21 FEBRUARY 2027','05:00 PM onwards'],['SHUBH VIVAH','22 FEBRUARY 2027','07:00 PM onwards'],['RECEPTION','22 FEBRUARY 2027','08:30 PM onwards']]};
+const $=s=>document.querySelector(s),M=innerWidth<720,RM=matchMedia('(prefers-reduced-motion:reduce)').matches,rnd=(a,b)=>a+Math.random()*(b-a);
+let done,MX=0,MY=0;const stop=[];
+addEventListener('pointermove',e=>{MX=e.clientX/innerWidth-.5;MY=e.clientY/innerHeight-.5});
+document.querySelectorAll('[data-t]').forEach(e=>e.textContent=C[e.dataset.t]);
+const mand=`${[...Array(12)].map((_,i)=>`<ellipse cx="0" cy="-32" rx="7" ry="22" transform="rotate(${i*30})"/>`).join('')}<circle r="12"/><circle r="56"/><circle r="8" stroke-width="1.5"/>`;$('#m1').innerHTML=$('#m2').innerHTML=mand;
+$('#tl').innerHTML=C.events.map(e=>`<div class="ev rv"><div class="lb">${e[1]}</div><h3>${e[0]}</h3><div class="t">${e[2]}</div></div>`).join('');
+$('#call').href='tel:'+C.call;$('#wa').href='https://wa.me/'+C.wa+'?text='+encodeURIComponent(C.msg);
+document.querySelectorAll('.map').forEach(a=>a.href='https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(C.map));
+const io=new IntersectionObserver(l=>l.forEach(e=>e.isIntersecting&&e.target.classList.add('in')),{threshold:.2});document.querySelectorAll('.rv').forEach(e=>io.observe(e));
+const cdE=[...document.querySelectorAll('.cd b')],cdv=[];
+function cd(){const d=Math.max(0,C.date-Date.now())/1000|0,v=[d/86400|0,(d/3600%24)|0,(d/60%60)|0,d%60];v.forEach((n,i)=>{const s=String(n).padStart(2,'0');if(cdv[i]!==s){cdv[i]=s;cdE[i].textContent=s;cdE[i].animate([{transform:'translateY(-35%)',opacity:0},{transform:'none',opacity:1}],{duration:350,easing:'ease-out'})}})}cd();setInterval(cd,1000);
+addEventListener('scroll',()=>$('.cue').classList.toggle('on',scrollY<40&&done),{passive:true});
+function fin(){if(done)return;done=1;stop.forEach(f=>{try{f()}catch(e){}});document.body.classList.remove('lock');window.gsap&&gsap.set('#inv',{clearProps:'all'});$('#ov')&&$('#ov').remove();scrollTo(0,0);setTimeout(()=>$('.cue').classList.add('on'),700)}
+const iris=(T,t)=>T.fromTo('#inv',{clipPath:'circle(0% at 50% 50%)'},{clipPath:'circle(150% at 50% 50%)',duration:2.2,ease:'power2.in',onComplete:fin},t);
+const fonts=a=>Promise.race([Promise.all(a.map(f=>document.fonts.load(f))),new Promise(r=>setTimeout(r,2500))]);
+const go=async(f,three)=>{try{if(RM||!window.gsap||(three&&(!window.THREE||!document.createElement('canvas').getContext('webgl'))))return fin();document.body.classList.add('lock');await f()}catch(e){console.error(e);fin()}};
+document.querySelectorAll('.sp').forEach(el=>el.innerHTML=el.textContent.split(' ').map(w=>`<span style="white-space:nowrap">${[...w].map(c=>`<i>${c}</i>`).join('')}</span>`).join(' '));
+
+let R,raf,T;
+async function intro(){
+await fonts(['600 40px Cinzel','italic 40px "Playfair Display"']);
+const PI=Math.PI,AD=THREE.AdditiveBlending,cv=(w,h,f)=>{const c=document.createElement('canvas');c.width=w;c.height=h;f(c.getContext('2d'),w,h);return c},tex=c=>new THREE.CanvasTexture(c),
+glowT=tex(cv(64,64,x=>{const g=x.createRadialGradient(32,32,0,32,32,32);g.addColorStop(0,'#fff');g.addColorStop(.35,'rgba(255,255,255,.45)');g.addColorStop(1,'rgba(255,255,255,0)');x.fillStyle=g;x.fillRect(0,0,64,64)})),
+mt=(c,o={})=>new THREE.MeshStandardMaterial({color:c,roughness:.7,...o});
+R=new THREE.WebGLRenderer({canvas:$('#c'),antialias:!M});R.setPixelRatio(Math.min(devicePixelRatio,M?1.5:2));R.setSize(innerWidth,innerHeight);
+const sc=new THREE.Scene(),cam=new THREE.PerspectiveCamera(M?65:50,innerWidth/innerHeight,.1,300);
+sc.background=tex(cv(2,256,(x,w,h)=>{const g=x.createLinearGradient(0,0,0,h);[[0,'#2b0a14'],[.45,'#7a2a22'],[.8,'#f2a33a'],[1,'#ffe2a0']].forEach(([o,c])=>g.addColorStop(o,c));x.fillStyle=g;x.fillRect(0,0,w,h)}));sc.fog=new THREE.Fog(0x7a2a22,18,110);
+const gl=(c,s,o=0)=>{const p=new THREE.Sprite(new THREE.SpriteMaterial({map:glowT,color:c,blending:AD,transparent:true,depthWrite:false,fog:false,opacity:o}));p.scale.setScalar(s);sc.add(p);return p};
+const skyL=(z,c,k)=>{const s=new THREE.Shape();s.moveTo(-80,-4);for(let x=-80;x<80;x+=k){const h=rnd(4,9);s.lineTo(x,h);s.quadraticCurveTo(x+k*.4,h+k*.9,x+k*.8,h);s.lineTo(x+k*.8,h*.6)}s.lineTo(80,-4);const m=new THREE.Mesh(new THREE.ShapeGeometry(s),new THREE.MeshBasicMaterial({color:c}));m.position.z=z;sc.add(m)};
+skyL(-75,0x8a3a2a,5);skyL(-56,0x5a1a22,4);skyL(-40,0x3a0f1a,3.4);const sun=gl(0xffc060,90,.9);sun.position.set(0,10,-95);
+const fT=tex(cv(128,128,(x,w)=>{x.fillStyle='#3a0f1a';x.fillRect(0,0,w,w);x.strokeStyle='#d9a441';x.lineWidth=2;x.strokeRect(2,2,124,124);x.beginPath();x.moveTo(64,10);x.lineTo(118,64);x.lineTo(64,118);x.lineTo(10,64);x.closePath();x.stroke()}));fT.wrapS=fT.wrapT=THREE.RepeatWrapping;fT.repeat.set(12,32);
+const fl=new THREE.Mesh(new THREE.PlaneGeometry(60,160),mt(0xffffff,{map:fT,roughness:.5}));fl.rotation.x=-PI/2;fl.position.z=-50;sc.add(fl);
+const amb=new THREE.AmbientLight(0xffd9b0,.3),pl=new THREE.PointLight(0xffb060,0,70);pl.position.set(0,7,-8);sc.add(amb,pl,new THREE.HemisphereLight(0xffd9b0,0x3a0f1a,.4));
+const stone=mt(0x8a3a2c),gm=mt(0xF2A33A,{metalness:.8,roughness:.3}),bx=(w,h,d,m,x,y,z)=>{const o=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),m);o.position.set(x,y,z);sc.add(o);return o};
+bx(10,18,1,stone,-8,9,0);bx(10,18,1,stone,8,9,0);bx(6,7,1,stone,0,14.5,0);
+const arch=new THREE.Mesh(new THREE.TorusGeometry(3.1,.2,12,48,PI),gm);arch.position.set(0,8,.5);sc.add(arch);
+const dT=tex(cv(256,512,(x,w,h)=>{x.fillStyle='#5a1426';x.fillRect(0,0,w,h);x.strokeStyle='#F2A33A';x.lineWidth=4;x.strokeRect(14,14,w-28,h-28);x.strokeRect(30,30,w-60,h-60);x.fillStyle='#F2A33A';for(let i=0;i<5;i++)for(let j=0;j<10;j++){x.beginPath();x.arc(52+i*38,70+j*40,5,0,7);x.fill()}x.beginPath();x.arc(w/2,h/2,46,0,7);x.stroke();x.beginPath();x.arc(w/2,h/2,16,0,7);x.fill()}));
+const doors=[-1,1].map(s=>{const g=new THREE.Group();g.position.set(s*3,0,.2);const m=new THREE.Mesh(new THREE.BoxGeometry(3,8,.3),mt(0xffffff,{map:dT}));m.position.set(-s*1.5,4,0);g.add(m);sc.add(g);return g});
+const seam=new THREE.Mesh(new THREE.PlaneGeometry(.4,8),new THREE.MeshBasicMaterial({color:0xffd98a,blending:AD,transparent:true,opacity:0,fog:false}));seam.position.set(0,4,-.1);sc.add(seam);const fan=gl(0xffb347,14);fan.position.set(0,9,-3);
+for(let i=0;i<8;i++)for(const s of[-1,1]){const z=-6-i*9,x=s*7.5;bx(1.6,.5,1.6,gm,x,10.2,z);const c=new THREE.Mesh(new THREE.CylinderGeometry(.5,.65,10,14),mt(0xe3b27a));c.position.set(x,5,z);sc.add(c);const d=new THREE.Mesh(new THREE.SphereGeometry(1.1,16,8,0,PI*2,0,PI/2),gm);d.position.set(x,10.4,z);sc.add(d)}
+const PN=M?250:500,pp=new Float32Array(PN*3).map((_,i)=>i%3==0?rnd(-16,16):i%3==1?rnd(0,16):rnd(-70,10)),pc=new Float32Array(PN*3),cs=[0xff8a1f,0xe8a010,0xc2185b,0xffd24a].map(h=>new THREE.Color(h));for(let i=0;i<PN;i++)cs[i%4].toArray(pc,i*3);
+const pg=new THREE.BufferGeometry();pg.setAttribute('position',new THREE.BufferAttribute(pp,3));pg.setAttribute('color',new THREE.BufferAttribute(pc,3));
+const pts=new THREE.Points(pg,new THREE.PointsMaterial({map:glowT,size:.45,vertexColors:true,transparent:true,opacity:0,depthWrite:false,fog:false}));sc.add(pts);
+const S={z:18,y:4,ly:5},ck=new THREE.Clock();
+const tick=()=>{raf=requestAnimationFrame(tick);const t=ck.getElapsedTime();cam.position.set(MX*.8,S.y-MY*.4,S.z);cam.lookAt(0,S.ly,S.z-18);
+for(let i=0;i<PN;i++){pp[i*3+1]-=.02;pp[i*3]+=Math.sin(t+i)*.005;if(pp[i*3+1]<0)pp[i*3+1]=16}pg.attributes.position.needsUpdate=true;R.render(sc,cam)};tick();
+const rs=()=>{cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix();R.setSize(innerWidth,innerHeight)};addEventListener('resize',rs);
+stop.push(()=>{cancelAnimationFrame(raf);T&&T.kill();R.dispose();removeEventListener('resize',rs)});
+T=gsap.timeline({defaults:{ease:'power2.inOut'}});
+T.to('#t1',{opacity:1,y:0,duration:1.8,ease:'power2.out'},.4).to(seam.material,{opacity:.9,duration:2.5},.6).to(S,{z:13,duration:3.4,ease:'none'},.4).to('#t1',{opacity:0,duration:.8},3.4)
+.to(seam.material,{opacity:0,duration:1},4.2).to(doors[0].rotation,{y:1.9,duration:3.4},3.8).to(doors[1].rotation,{y:-1.9,duration:3.4},3.8)
+.to(pl,{intensity:2.5,duration:3},4).to(amb,{intensity:.9,duration:3},4).to('#fl',{opacity:.95,duration:1.4,ease:'power2.in'},5).to('#fl',{opacity:0,duration:1.8},6.5)
+.to(S,{z:-16,y:3.4,duration:6.5},5.2).to(pts.material,{opacity:.9,duration:2},6.5)
+.to('.n i',{opacity:1,y:0,rotationX:0,stagger:.05,duration:1,ease:'power3.out'},10).to('.and,.s',{opacity:1,duration:1.2},11.2);
+iris(T,15)}
+go(intro,true);</script></body></html>
